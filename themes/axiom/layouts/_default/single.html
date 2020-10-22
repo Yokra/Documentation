@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="default-single">
   <div class="ax-title ax-l-o">
-    <div class="ax-l-i{{ printf " %s" (.Params.maxWidthTitle | default "max-w-680") }}">
+    <!-- <div class="ax-l-i{{ printf " %s" (.Params.maxWidthTitle | default "max-w-680") }}"></div> -->
       <h1 class="post-title font-content-title font-normal leading-tight tracking-default text-40">{{ .Title }}</h1>
       {{- if .Params.subtitle }}
       <p class="post-subtitle font-content-sans font-light text-xl text-raven-500 mt-3">{{- partial "meta-subtitle" . | safeHTML -}}</p>

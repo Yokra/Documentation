@@ -1,4 +1,41 @@
-baseURL = "http://example.org/"
+# Change to your website's URL (NO trailing slash)
+# For local dev, change to: http://localhost:1313
+baseURL = "https://example.com"
+
+# Change to your Brand or Website Title
+title = "Documentation"
+
+author = "test"
+
+# Language codes (lowercase)
 languageCode = "en-us"
-title = "My New Hugo Site"
+defaultContentLanguage = "en"
+
+# Which theme to use
 theme = "axiom"
+
+# Pagination (increase number for production)
+paginate = 2
+
+# Canonify relative URLs using baseURL
+canonifyURLs = false
+
+# Length of snippet on post index and structured data
+summaryLength = 40
+
+# Max posts to show in atom feed
+rssLimit = 100
+
+# Enable Emoji's in posts
+enableEmoji = true
+
+# Output a robots.txt file (see the 'Frontmatter' Docs page)
+enableRobotsTXT = false
+
+# Don't automatically mangle titles
+pluralizelisttitles = true
+
+extensions = ["hardLineBreak"]
+
+
+
