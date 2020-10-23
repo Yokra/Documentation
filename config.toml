@@ -1,6 +1,6 @@
 # Change to your website's URL (NO trailing slash)
 # For local dev, change to: http://localhost:1313
-baseURL = "https://example.com"
+baseURL = "https://yokra.gitlab.io/doc-static-site/"
 
 # Change to your Brand or Website Title
 title = "Documentation"
