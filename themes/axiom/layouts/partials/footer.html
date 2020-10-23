@@ -23,9 +23,9 @@
 
     {{- if not (eq .Site.Params.disableThemeAttribution true) }}
     {{- $theme := .Scratch.Get "theme" }}
-    <!-- <div class="text-sm sm:text-xs text-center text-gray-500 mt-2">
+    <div class="text-sm sm:text-xs text-center text-gray-500 mt-2">
       {{ printf `%s <a href="%s?utm_source=theme-footer&utm_medium=website&utm_campaign=referral">%s</a>` (T "poweredBy" .) $theme.homepage $theme.name | safeHTML }}
-    </div> -->
+    </div>
     {{- end }}
   </div>
 </footer>
